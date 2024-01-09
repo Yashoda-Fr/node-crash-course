@@ -1,2 +1,9 @@
-const name ="maria";
-console.log(name);
+// const name ="maria";
+// console.log(name);
+
+const greet = (name) => {
+    console.log(`hello, ${name}`);
+}
+
+greet('mario');
+greet('yoshi');
