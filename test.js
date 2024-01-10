@@ -1,9 +1,12 @@
-// const name ="maria";
-// console.log(name);
+// //console.log(global);
 
-const greet = (name) => {
-    console.log(`hello, ${name}`);
-}
+// global.setTimeout(() => {
+//     console.log('in the timeout');
+// }, 3000);
 
-greet('mario');
-greet('yoshi');
+// const int = setInterval(() => {
+//     console.log('in the interval');
+// }, 1000);
+
+console.log(__dirname);
+console.log(__filename);
